@@ -19,8 +19,8 @@ Different Features of Pytest Framework
 - Then ==> pip install pytest
 - Check Pytest library with command ==> pip list
 
-To install other files:
------------------------
+To install other files: PYTHON INTEGRATED TOOLS
+-------------------------------------------------
 - Click on file
 - Click on settings
 - Click on Appearance & Behaviour
@@ -39,6 +39,8 @@ To install other files:
     - Go to Tools
     - Go to Diff & Merge
     - Click on PYTHON INTEGRATED TOOLS
+    - Ensure Testing ==> Default Test Runner: Autodetect(pytest) ==> Analyse Python Code in Docstrings is ticked
+    - Then click Ok button
 
 
 Project Structure
