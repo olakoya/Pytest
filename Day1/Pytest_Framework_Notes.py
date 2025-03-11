@@ -93,11 +93,11 @@ Scope (Types) of Fixtures
 Session Scope is useful when you need to set up something that should last for the entire test run, like a database connection.
 
 
-Autouse Fixtures
+AutoUse Fixtures
 ----------------
-gobal setup and Teardowns
+Global setup and Teardowns
 
-Conftest file
+ConfTest file
 ---------------
 For better code maintenance we will specify Configurations and fixtures in conftest.py and pass as argument in testMethods in modules
 

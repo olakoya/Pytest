@@ -170,7 +170,7 @@ Closing Browser
 
 '''
 
-# Module Scope
+# Session Scope
 @pytest.fixture(scope = 'module') # Class
 def setup (): # Fixture Function
     print("Launching Browser")
@@ -178,7 +178,7 @@ def setup (): # Fixture Function
     print("Closing Browser")
 
 class TestClass: # Creating a Class
-    def testLogin(self, setup): # Method 1 - Passing as an arguement before execution
-        print("This is Login Test") # Passing as an arguement after execution
+    def testLogin(self, setup): # Method 1 - Passing as an argument before execution
+        print("This is Login Test") # Passing as an argument after execution
     def testLogout(self, setup): # Method 2
         print("This is Logout Test")
