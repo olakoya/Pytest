@@ -82,12 +82,12 @@ Fixture functions are passed as an argument to testMethod.
 Fixtures functions also returns value when called which is optional
 
 
-Scope of Fixtures
+Scope (Types) of Fixtures
 ------------------
-Function Scope: Fixture is called once per test function.
-Class Scope: Fixture is called once per class, shared by all test methods in that class.
-Module Scope: Fixture is called once per module, shared by all test functions in that file.
-Session Scope: Fixture is called once per session, shared by all tests in the test run.
+1. Function Scope: Fixture is called once per test function.
+2. Class Scope: Fixture is called once per class, shared by all test methods in that class.
+3. Module Scope: Fixture is called once per module, shared by all test functions in that file.
+4. Session Scope: Fixture is called once per session, shared by all tests in the test run.
 
 
 Session Scope is useful when you need to set up something that should last for the entire test run, like a database connection.
