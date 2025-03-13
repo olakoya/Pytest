@@ -43,38 +43,38 @@ PASSED                                   [100%]This is Login Test
 '''
 Line 39 Output is
 Testing started at 18:41 ...
-Launching pytest with arguments test_function_scope.py::TestClass::testLogin --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
+Launching pytest with arguments test_function_scope2.py::TestClass::testLogin --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
 
 ============================= test session starts ==============================
 collecting ... collected 1 item
 
-test_function_scope.py::TestClass::testLogin PASSED                      [100%]This is Login Test
+test_function_scope2.py::TestClass::testLogin PASSED                      [100%]This is Login Test
 
 
 ============================== 1 passed in 0.02s ===============================
 
 Line 41 Output is
 Testing started at 18:43 ...
-Launching pytest with arguments test_function_scope.py::TestClass::testLogout --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
+Launching pytest with arguments test_function_scope2.py::TestClass::testLogout --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
 
 ============================= test session starts ==============================
 collecting ... collected 1 item
 
-test_function_scope.py::TestClass::testLogout PASSED                     [100%]This is Logout Test
+test_function_scope2.py::TestClass::testLogout PASSED                     [100%]This is Logout Test
 
 
 ============================== 1 passed in 0.01s ===============================
 
 Line 38 Output is
 Testing started at 18:44 ...
-Launching pytest with arguments test_function_scope.py::TestClass --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
+Launching pytest with arguments test_function_scope2.py::TestClass --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
 
 ============================= test session starts ==============================
 collecting ... collected 2 items
 
-test_function_scope.py::TestClass::testLogin PASSED                      [ 50%]This is Login Test
+test_function_scope2.py::TestClass::testLogin PASSED                      [ 50%]This is Login Test
 
-test_function_scope.py::TestClass::testLogout PASSED                     [100%]This is Logout Test
+test_function_scope2.py::TestClass::testLogout PASSED                     [100%]This is Logout Test
 
 
 ============================== 2 passed in 0.02s ===============================
@@ -93,15 +93,15 @@ test_function_scope.py::TestClass::testLogout PASSED                     [100%]T
 '''
 Output is
 Testing started at 18:47 ...
-Launching pytest with arguments test_function_scope.py::TestClass --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
+Launching pytest with arguments test_function_scope2.py::TestClass --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
 
 ============================= test session starts ==============================
 collecting ... collected 2 items
 
-test_function_scope.py::TestClass::testLogin Launching Browser
+test_function_scope2.py::TestClass::testLogin Launching Browser
 PASSED                      [ 50%]This is Login Test
 
-test_function_scope.py::TestClass::testLogout PASSED                     [100%]This is Logout Test
+test_function_scope2.py::TestClass::testLogout PASSED                     [100%]This is Logout Test
 Closing Browser
 
 
@@ -122,16 +122,16 @@ Closing Browser
 '''
 Output is
 Testing started at 18:51 ...
-Launching pytest with arguments test_function_scope.py::TestClass --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
+Launching pytest with arguments test_function_scope2.py::TestClass --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
 
 ============================= test session starts ==============================
 collecting ... collected 2 items
 
-test_function_scope.py::TestClass::testLogin Launching Browser
+test_function_scope2.py::TestClass::testLogin Launching Browser
 PASSED                      [ 50%]This is Login Test
 Closing Browser
 
-test_function_scope.py::TestClass::testLogout Launching Browser
+test_function_scope2.py::TestClass::testLogout Launching Browser
 PASSED                     [100%]This is Logout Test
 Closing Browser
 
@@ -154,15 +154,15 @@ Closing Browser
 '''
 Output is
 Testing started at 18:58 ...
-Launching pytest with arguments test_function_scope.py::TestClass --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
+Launching pytest with arguments test_function_scope2.py::TestClass --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
 
 ============================= test session starts ==============================
 collecting ... collected 2 items
 
-test_function_scope.py::TestClass::testLogin Launching Browser
+test_function_scope2.py::TestClass::testLogin Launching Browser
 PASSED                      [ 50%]This is Login Test
 
-test_function_scope.py::TestClass::testLogout PASSED                     [100%]This is Logout Test
+test_function_scope2.py::TestClass::testLogout PASSED                     [100%]This is Logout Test
 Closing Browser
 
 
@@ -185,15 +185,15 @@ Closing Browser
 '''
 Output is 
 Testing started at 16:59 ...
-Launching pytest with arguments test_function_scope.py::TestClass --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
+Launching pytest with arguments test_function_scope2.py::TestClass --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
 
 ============================= test session starts ==============================
 collecting ... collected 2 items
 
-test_function_scope.py::TestClass::testLogin Launching Browser
+test_function_scope2.py::TestClass::testLogin Launching Browser
 PASSED                      [ 50%]This is Login Test
 
-test_function_scope.py::TestClass::testLogout PASSED                     [100%]This is Logout Test
+test_function_scope2.py::TestClass::testLogout PASSED                     [100%]This is Logout Test
 Closing Browser
 
 
@@ -215,16 +215,16 @@ class TestClass: # Creating a Class
 '''
 Output is
 Testing started at 17:01 ...
-Launching pytest with arguments test_function_scope.py::TestClass --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
+Launching pytest with arguments test_function_scope2.py::TestClass --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
 
 ============================= test session starts ==============================
 collecting ... collected 2 items
 
-test_function_scope.py::TestClass::testLogin Launching Browser
+test_function_scope2.py::TestClass::testLogin Launching Browser
 PASSED                      [ 50%]This is Login Test
 Closing Browser
 
-test_function_scope.py::TestClass::testLogout Launching Browser
+test_function_scope2.py::TestClass::testLogout Launching Browser
 PASSED                     [100%]This is Logout Test
 Closing Browser
 

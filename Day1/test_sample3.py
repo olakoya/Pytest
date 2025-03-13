@@ -21,12 +21,12 @@
 '''
 Output is
 Testing started at 17:36 ...
-Launching pytest with arguments /Users/olakoya/Desktop/Pytest/Day1/test_sample.py --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
+Launching pytest with arguments /Users/olakoya/Desktop/Pytest/Day1/test_sample3.py --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
 
 ============================= test session starts ==============================
 collecting ... collected 1 item
 
-test_sample.py::Testsample::test_sample 
+test_sample3.py::Testsample::test_sample
 
 ============================== 1 passed in 3.01s ===============================
 PASSED                           [100%]Test Passed
@@ -60,19 +60,19 @@ PASSED                           [100%]Test Passed
 '''
 Output is
 Testing started at 17:48 ...
-Launching pytest with arguments test_sample.py::Testsample --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
+Launching pytest with arguments test_sample3.py::Testsample --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
 
 ============================= test session starts ==============================
 collecting ... collected 1 item
 
-test_sample.py::Testsample::test_sample 
+test_sample3.py::Testsample::test_sample 
 
 ============================== 1 passed in 3.28s ===============================
 PASSED                           [100%]Test Passed
 
 '''
 
-# Importing from File contest.py
+# Importing from File contest3.py
 # class Testsample:
 #     def test_sample(self, setup): # Passing fixture "setup" as an argument
 #         self.driver = setup # instoring as class method variable
@@ -88,12 +88,12 @@ PASSED                           [100%]Test Passed
 Output is
 
 Testing started at 17:56 ...
-Launching pytest with arguments test_sample.py::Testsample --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
+Launching pytest with arguments test_sample3.py::Testsample --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
 
 ============================= test session starts ==============================
 collecting ... collected 1 item
 
-test_sample.py::Testsample::test_sample 
+test_sample3.py::Testsample::test_sample 
 
 ============================== 1 passed in 3.29s ===============================
 PASSED                           [100%]Test Passed
@@ -101,16 +101,16 @@ PASSED                           [100%]Test Passed
 '''
 
 '''
-Executing from terminal using "-s -v Day1/test_sample.py"
+Executing from terminal using "-s -v Day1/test_sample3.py"
 
-(.venv) olakoya@MacBookPro Pytest % pytest -s -v Day1/test_sample.py 
+(.venv) olakoya@MacBookPro Pytest % pytest -s -v Day1/test_sample3.py 
 ========================================================================= test session starts =========================================================================
 platform darwin -- Python 3.9.6, pytest-8.3.5, pluggy-1.5.0 -- /Users/olakoya/Desktop/Pytest/.venv/bin/python
 cachedir: .pytest_cache
 rootdir: /Users/olakoya/Desktop/Pytest
 collected 1 item                                                                                                                                                      
 
-Day1/test_sample.py::Testsample::test_sample Test Passed
+Day1/test_sample3.py::Testsample::test_sample Test Passed
 PASSED
 
 ========================================================================== 1 passed in 2.20s ==========================================================================
@@ -121,14 +121,14 @@ PASSED
 '''
 Output to check if FAILED works i.e Negative testing by changing the name in line 81 from "Google" to 'Googleee'
 
-(.venv) olakoya@MacBookPro Pytest % pytest -s -v Day1/test_sample.py
+(.venv) olakoya@MacBookPro Pytest % pytest -s -v Day1/test_sample3.py
 ========================================================================= test session starts =========================================================================
 platform darwin -- Python 3.9.6, pytest-8.3.5, pluggy-1.5.0 -- /Users/olakoya/Desktop/Pytest/.venv/bin/python
 cachedir: .pytest_cache
 rootdir: /Users/olakoya/Desktop/Pytest
 collected 1 item                                                                                                                                                      
 
-Day1/test_sample.py::Testsample::test_sample Test Failed
+Day1/test_sample3.py::Testsample::test_sample Test Failed
 PASSED
 
 ========================================================================== 1 passed in 2.41s ==========================================================================
@@ -148,18 +148,18 @@ class Testsample:
 '''
 Output is 
 Testing started at 18:05 ...
-Launching pytest with arguments test_sample.py::Testsample --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
+Launching pytest with arguments test_sample3.py::Testsample --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
 
 ============================= test session starts ==============================
 collecting ... collected 1 item
 
-test_sample.py::Testsample::test_sample 
+test_sample3.py::Testsample::test_sample 
 
 ============================== 1 failed in 2.89s ===============================
 FAILED                           [100%]
 
 
-test_sample.py:140 (Testsample.test_sample)
+test_sample3.py:140 (Testsample.test_sample)
 'Google' != 'Googleeee'
 
 Expected :'Googleeee'
@@ -182,7 +182,7 @@ E         - Googleeee
 E         ?       ---
 E         + Google
 
-test_sample.py:147: AssertionError
+test_sample3.py:147: AssertionError
 
 Process finished with exit code 1
 '''
