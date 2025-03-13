@@ -171,14 +171,64 @@ Closing Browser
 '''
 
 # Session Scope
-@pytest.fixture(scope = 'module') # Class
+# @pytest.fixture(scope = 'module') # Class
+# def setup (): # Fixture Function
+#     print("Launching Browser")
+#     yield # Teardown
+#     print("Closing Browser")
+#
+# class TestClass: # Creating a Class
+#     def testLogin(self, setup): # Method 1 - Passing as an argument before execution
+#         print("This is Login Test") # Passing as an argument after execution
+#     def testLogout(self, setup): # Method 2
+#         print("This is Logout Test")
+'''
+Output is 
+Testing started at 16:59 ...
+Launching pytest with arguments test_function_scope.py::TestClass --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
+
+============================= test session starts ==============================
+collecting ... collected 2 items
+
+test_function_scope.py::TestClass::testLogin Launching Browser
+PASSED                      [ 50%]This is Login Test
+
+test_function_scope.py::TestClass::testLogout PASSED                     [100%]This is Logout Test
+Closing Browser
+
+
+============================== 2 passed in 0.05s ===============================
+'''
+
+# AutoUse Fixtures
+@pytest.fixture(autouse = True) # Class
 def setup (): # Fixture Function
     print("Launching Browser")
     yield # Teardown
     print("Closing Browser")
 
 class TestClass: # Creating a Class
-    def testLogin(self, setup): # Method 1 - Passing as an argument before execution
+    def testLogin(self): # Method 1 - Passing as an argument before execution
         print("This is Login Test") # Passing as an argument after execution
-    def testLogout(self, setup): # Method 2
+    def testLogout(self): # Method 2
         print("This is Logout Test")
+'''
+Output is
+Testing started at 17:01 ...
+Launching pytest with arguments test_function_scope.py::TestClass --no-header --no-summary -q in /Users/olakoya/Desktop/Pytest/Day1
+
+============================= test session starts ==============================
+collecting ... collected 2 items
+
+test_function_scope.py::TestClass::testLogin Launching Browser
+PASSED                      [ 50%]This is Login Test
+Closing Browser
+
+test_function_scope.py::TestClass::testLogout Launching Browser
+PASSED                     [100%]This is Logout Test
+Closing Browser
+
+
+============================== 2 passed in 0.02s ===============================
+
+'''

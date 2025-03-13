@@ -95,16 +95,19 @@ Session Scope is useful when you need to set up something that should last for t
 
 AutoUse Fixtures
 ----------------
-Global setup and Teardowns
+Global setup and Teardowns (not representing "setup" in class as an argument in methods)
+
 
 ConfTest file
 ---------------
-For better code maintenance we will specify Configurations and fixtures in conftest.py and pass as argument in testMethods in modules
+For better code maintenance we will specify Configurations and fixtures in conftest.py and pass as argument in testMethods in modules.
+This will automatically import conftest.py
 
 
-
-In Pytest by default all the testMethods will be passed unless we put assertions (validation point).
-Pytest automatically discovers and loads the `conftest.py` file for configurations and fixtures if it's in the same directory as the test modules. If it's outside the directory, Pytest won't recognize it.
+- In Pytest by default all the testMethods will be 'Passed' unless we put assertions (assertion is validation point).
+- Pytest automatically discovers and loads the `conftest.py` file for configurations and fixtures if it's in the same directory as the
+test modules.
+- If it's outside the directory, Pytest won't recognize it.
 
 '''
 
