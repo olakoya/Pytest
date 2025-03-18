@@ -1,7 +1,7 @@
 '''
 Pytest Framework - 2
 --------------------
-Skipping
+Skipping == MARK MEANS MARKER
 ---------
 1. @pytest.mark(are used to call other TestCases).skip(Mark is for skipping TCs) ==> Skips unconditionally
 2. @pytest.mark.skipif ==> Skips based on condition it skips some Test Cases
@@ -20,12 +20,12 @@ Multiples options to manually Execute the above Skipping Methods and generates a
 
 Ordering
 --------
-1. install pytest-ordering
+1. install pytest-ordering (type pip install pytest-ordering on terminal or go to the settings and install manually)
 2. @pytest.mark.run(order=num)
 3. @pytest.mark.first
 
-pytest.ini ==> Markers
-conftest.py ==> fixtures
+pytest.ini ==> Markers (TO MAKE PYTEST AWARE WE NEED TO USE SPECIFY INI IN MARKERS)
+conftest.py ==> fixtures (CONFTEST IS USED FOR FIXTURES)
 
 
 Dependency
