@@ -30,16 +30,16 @@ conftest.py ==> fixtures (CONFTEST IS USED FOR FIXTURES)
 
 Dependency
 -----------
+To achieve this we need to install;
 1. pip install pytest-dependency
 2. @pytest.mark.dependency(depends=[])
-
 
 
 grouping
 ----------
 smoke
 sanity
-regresion
+regression
 
 @pytest.mark.groupingname
 
