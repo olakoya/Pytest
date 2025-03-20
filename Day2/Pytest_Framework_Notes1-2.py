@@ -35,17 +35,17 @@ To achieve this we need to install;
 2. @pytest.mark.dependency(depends=[])
 
 
-grouping
-----------
-smoke
-sanity
-regression
+Grouping (This is the different types of testing conducted in Pytest) and they are Markers
+-------------------------------------------------------------------------------------------
+1. Smoke
+2. Sanity
+3. Regression
 
-@pytest.mark.groupingname
+==> @pytest.mark.groupingname i.e
+    ==> @pytest.mark.smoke
+    ==> @pytest.mark.sanity
+    ==> @pytest.mark.regression
 
-@pytest.mark.smoke
-@pytest.mark.sanity
-@pytest.mark.regression
 
 
 parallel execution
