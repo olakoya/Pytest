@@ -48,17 +48,21 @@ Grouping (This is the different types of testing conducted in Pytest) and they a
 
 
 
-parallel execution
+Parallel Execution
 -------------------
-100TC ==> 100 min
+100TC ==> 100 min (E.g if a TC takes 1min that means 100 TCs will take 100 mins)
 
-Time is saved
-Results are very quick
+Advantage of Parallel Execution
+---------------------------------
+i. Time is saved by using parallel execution
+ii. Results are very quick
 
-Pytest parallel testing can significantly speed up the test execution process by running tests in parallel across multiple CPU cores. This is useful for large test suites and can reduce the time taken for test execution.
+- Pytest parallel testing can significantly speed up the test execution process by running tests in parallel across multiple
+CPU cores. This is useful for large test suites and can reduce the time taken for test execution.
 
-The pytest-xdist plugin enables parallel test execution in pytest. It allows tests to be distributed across multiple processors, threads, or machines.
+- The code pytest-xdist plugin enables parallel test execution in pytest. It allows tests to be distributed across multiple
+processors, threads, or machines.
 
-pip install pytest-xdist
+- Install pip install pytest-xdist
 
 '''
