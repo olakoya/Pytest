@@ -10,16 +10,26 @@ Parametarisation (This is also a marker)
 @pytest.mark.parameterize() (its like a data driven testing and if the data is huge DDT is what to use)
 
 
-
-
 Generating HTML Reports
 -----------------------
-pip install pytest-html
+1. pip install pytest-html
+    - After installing the above
+2. We generate reports needed and code to use is below;
+==> pytest -s -v --html=Day3\report.html Day3/test_Parameterization3-2.py
+3. After execution report can be displayed by
+    - Right clicking on the automatic created html file report in the folder
+    - Open in
+    - Browser (select one)
+    - Safari
+    - Reports generated onto selected browser, Safari
+
+After generating the report and one wants to edit and delete some unnecessary info on the report software to use is below;
 
 Hooks
 -------
 Customizing Test Metadata and Environment Information in Pytest HTML Reports
-Hooks are functions provided by the pytest framework used to Add/Delete/Modify Environment info in the HTML Report - @pytest.mark.optionalhook
+Hooks are functions provided by the pytest framework used to Add/Delete/Modify Environment info in the HTML Report
+==> @pytest.mark.optionalhook
 
 
 Commandline options
