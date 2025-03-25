@@ -100,3 +100,23 @@ FAILED Day3/test_Parameterization3-2.py::TestClass::test_Login[Admin-dmin123] - 
 ==================================================================== 2 failed, 2 passed in 44.19s =====================================================================
 
 '''
+
+'''
+Output after creating conftest.py file
+Day3/test_Parameterization3-2.py:23: AssertionError
+========================================================================== warnings summary ===========================================================================
+Day3/conftest.py:4
+  /Users/olakoya/Desktop/Pytest/Day3/conftest.py:4: PytestDeprecationWarning: The hookimpl pytest_metadata uses old-style configuration options (marks or attributes).
+  Please use the pytest.hookimpl(optionalhook=True) decorator instead
+   to configure the hooks.
+   See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+    @pytest.mark.optionalhook
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================================================================= short test summary info =======================================================================
+FAILED Day3/test_Parameterization3-2.py::TestClass::test_Login[Admi-admin123] - assert False
+FAILED Day3/test_Parameterization3-2.py::TestClass::test_Login[Admin-dmin123] - assert False
+=============================================================== 2 failed, 2 passed, 1 warning in 42.35s ===============================================================
+(.venv) olakoya@MacBookPro Pytest % 
+
+'''
