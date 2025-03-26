@@ -34,7 +34,7 @@ Hooks are functions provided by the pytest framework used to Add/Delete/Modify E
 
 Commandline options
 --------------------
-parser.addoption('--browser')
-request.config.getoption("--browser")
+- parser.addoption('--browser') (describing method and using option '--browser' dynamically by specifying)
+- request.config.getoption("--browser") (this is captuiring the value and passing it to fixture function)
 
 '''

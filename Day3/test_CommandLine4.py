@@ -6,3 +6,5 @@ class Testsample:
         self.driver.get("https://www.google.co.uk/")
         act_title = self.driver.title
         exp_title = "Google"
+
+# Passing Method from Commandline
