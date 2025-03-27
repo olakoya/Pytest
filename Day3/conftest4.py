@@ -2,8 +2,6 @@ import pytest
 from selenium import webdriver
 from pytest_metadata.plugin import metadata_key
 
-
-
 # @pytest.mark.optionalhook
 # def pytest_metadata(metadata):
 #     metadata.pop("Python", None) # pop means remove or delete
@@ -31,6 +29,7 @@ def pytest_addoption(parser):
     parser.addoption('--browser')
     # parser.addoption('--os')
 
+@pytest.fixture()
 def browser(request):
     # browser = request.config.getoption("--browser")
     # os = request.config.getoption("--os")
