@@ -26,18 +26,16 @@ def setup(browser): # defining parameter as browser to the fixture function (Par
     driver.quit()
 
 def pytest_addoption(parser):
-    parser.addoption('--browser')
+    parser.addoption('--browser', action="store", default="chrome", help="Browser to run tests")
     # parser.addoption('--os')
 
 @pytest.fixture()
 def browser(request):
-    # browser = request.config.getoption("--browser")
-    # os = request.config.getoption("--os")
     return request.config.getoption("--browser")
 
 def pytest_configuration(config): # For adding information hook isn't required
-    config.stash[metadata_key]['Project Name'] = 'Parameterization'
-    config.stash[metadata_key]['Module Name'] = 'test_Parameterization'
+    config.stash[metadata_key]['Project Name'] = 'Google'
+    config.stash[metadata_key]['Module Name'] = 'Title Module'
     config.stash[metadata_key]['Tester Name'] = 'Ola'
 @pytest.mark.optionalhook
 def pytest_metadata(metadata): # For modifying hook is required above

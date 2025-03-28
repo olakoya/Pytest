@@ -6,5 +6,6 @@ class Testsample:
         self.driver.get("https://www.google.co.uk/")
         act_title = self.driver.title
         exp_title = "Google"
+        print(f"Running tests on {browser}")
 
 # Passing Method from Commandline
