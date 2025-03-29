@@ -102,11 +102,11 @@ FAILED Day3/test_Parameterization3-2.py::TestClass::test_Login[Admin-dmin123] - 
 '''
 
 '''
-Output after creating conftest4.py file
+Output after creating conftest.py file
 Day3/test_Parameterization3-2.py:23: AssertionError
 ========================================================================== warnings summary ===========================================================================
-Day3/conftest4.py:4
-  /Users/olakoya/Desktop/Pytest/Day3/conftest4.py:4: PytestDeprecationWarning: The hookimpl pytest_metadata uses old-style configuration options (marks or attributes).
+Day3/conftest.py:4
+  /Users/olakoya/Desktop/Pytest/Day3/conftest.py:4: PytestDeprecationWarning: The hookimpl pytest_metadata uses old-style configuration options (marks or attributes).
   Please use the pytest.hookimpl(optionalhook=True) decorator instead
    to configure the hooks.
    See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers

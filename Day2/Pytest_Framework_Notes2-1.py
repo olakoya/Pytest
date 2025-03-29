@@ -25,7 +25,7 @@ Ordering
 3. @pytest.mark.first
 
 pytest.ini ==> Markers (TO MAKE PYTEST AWARE WE NEED TO USE SPECIFY INI IN MARKERS)
-conftest4.py ==> fixtures (CONFTEST IS USED FOR FIXTURES)
+conftest.py ==> fixtures (CONFTEST IS USED FOR FIXTURES)
 
 
 Dependency

@@ -1,7 +1,7 @@
 import pytest
 from selenium import webdriver
 
-from Day3.conftest4 import browser
+from Day3.conftest import browser
 
 
 @pytest.fixture()

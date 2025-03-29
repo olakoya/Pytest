@@ -100,12 +100,12 @@ Global setup and Teardowns (not representing "setup" in class as an argument in 
 
 ConfTest file
 ---------------
-For better code maintenance we will specify Configurations and fixtures in conftest4.py and pass as argument in testMethods in modules.
-This will automatically import conftest4.py
+For better code maintenance we will specify Configurations and fixtures in conftest.py and pass as argument in testMethods in modules.
+This will automatically import conftest.py
 
 
 - In Pytest by default all the testMethods will be 'Passed' unless we put assertions (assertion is validation point).
-- Pytest automatically discovers and loads the `conftest4.py` file for configurations and fixtures if it's in the same directory as the
+- Pytest automatically discovers and loads the `conftest.py` file for configurations and fixtures if it's in the same directory as the
 test modules.
 - If it's outside the directory, Pytest won't recognize it.
 
