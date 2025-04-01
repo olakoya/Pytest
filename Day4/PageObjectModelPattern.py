@@ -17,23 +17,26 @@ Inside of this application we have 3 different pages in hierarchy;
 
 A. Then first we need to automate;
 - Automate login Functionality
+--------------------------------
 
 B. Secondly we need to automate;
 - Automate Search functionality, we need to write;
+--------------------------------------------------
 	i. Login functionality automation script
 	ii. write script for search functionality
 
  C. Thirdly we need to automate;
 - Automate Advanced Search functionality
+------------------------------------------------
 	i. Login functionality automation script
 	ii. write script for search functionality
 	iii. write script for Advanced search functionality
 
 
-Problems without POM
----------------------
-Duplication
-Updation/Maintainance
+Problems without POM (Page Object Model)
+-----------------------------------------
+1. Duplication is an issue
+2. Updating/ Maintenance
 
 With Page Object Model Approach
 -------------------------------
