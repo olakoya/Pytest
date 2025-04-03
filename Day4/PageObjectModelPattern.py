@@ -53,7 +53,7 @@ class ==> constructors + methods(Actions)
 
 Page Object Class should contain;
 -----------------------------------
-	1. Locators => Locating element and afterwards perform action
+	1. Locators => Locating element and afterwards perform action (LoginPageObjects.py)
 	2. Constructor => Used for initialising an instant variable
 	3. Action methods
 
@@ -62,10 +62,12 @@ Page Object Class should contain;
 
 Thumb rules :
 ------------
-1. In the Page object class should have elements belonging to one single page every time i.e, one page object class should
+1. In the Page object class one should have elements belonging to one single page every time i.e, one page object class should
 always represent only one single page.
-2. Page Object class we should not hard code any data .The data should pass through test case
-We should not include any validations and assertions in the page object class
+2. Page Object class one must not add code any data .The data should pass through test case
+3. We should not include any validations and assertions in the page object class
 
 
+Run this code in terminal to execute:
+==> pytest -s -v Day4\test_login.py
 '''
