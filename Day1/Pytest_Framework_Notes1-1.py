@@ -1,5 +1,5 @@
 '''
-Pytest Framework -1
+Pytest Framework - 1
 --------------------
 - Pytest is a Testing framework
 - Pytest can be used to test application for unit, integration and functional
@@ -22,7 +22,7 @@ Different Features of Pytest Framework
 To install other files: PYTHON INTEGRATED TOOLS
 -------------------------------------------------
 - Click on file
-- Click on settings
+- Click on Settings
 - Click on Appearance & Behaviour
 - Click on Project: pytestFramework
 - Click on Python Interpreter
@@ -30,7 +30,7 @@ To install other files: PYTHON INTEGRATED TOOLS
 - And type in the search box to search for a specific package
 - Click on install package button to install and ok
 - And then all the files will be installed
-- if a file needs updating it will prompt you in the terminal
+- If a file needs updating it will prompt you in the terminal
 - Then follow instructions and afterwards all files will be updated
 - Before starting to write the project one needs to ensure PYTHON INTEGRATED TOOLS is installed
 - To check
@@ -41,7 +41,6 @@ To install other files: PYTHON INTEGRATED TOOLS
     - Click on PYTHON INTEGRATED TOOLS
     - Ensure Testing ==> Default Test Runner: Autodetect(pytest) ==> Analyse Python Code in Docstrings is ticked
     - Then click Ok button
-
 
 Project Structure
 ------------------
@@ -62,7 +61,7 @@ Naming Conventions in pytest framework (One needs to follow this naming conventi
 
 Pytest Fixtures
 ---------------
-fixtures are functions that manage the setup and teardown process for test environments. Fixtures allow you to define
+Fixtures are functions that manage the setup and teardown process for test environments. Fixtures allow you to define
 code that needs to run before a test (setup) and after a test (teardown), ensuring a controlled and repeatable test environment.
 They help in avoiding code duplication, keeping test logic clear, and sharing reusable setup logic across multiple tests.
 
@@ -79,18 +78,16 @@ any resources used during the test are released, cleaned, or reset, such as clos
 
 
 Fixture functions are passed as an argument to testMethod.
-Fixtures functions also returns value when called which is optional
-
+Fixtures functions also returns value when called which is optional.
 
 Scope (Types) of Fixtures
-------------------
+--------------------------
 1. Function Scope: Fixture is called once per test function.
 2. Class Scope: Fixture is called once per class, shared by all test methods in that class.
 3. Module Scope: Fixture is called once per module, shared by all test functions in that file.
 4. Session Scope: Fixture is called once per session, shared by all tests in the test run.
 
-
-Session Scope is useful when you need to set up something that should last for the entire test run, like a database connection.
+5. Session Scope is useful when you need to set up something that should last for the entire test run, like a database connection.
 
 
 AutoUse Fixtures
@@ -112,7 +109,7 @@ test modules.
 '''
 
 '''
-Another way to run the code is by typing this "pytest -s -v Day1/test_1.py" in the terminal and running it.
+Another way to run the code aside from the run button is by typing this "pytest -s -v Day1/test_1.py" in the terminal and running it.
 
 Day1 is ==> Test Suit or Module
 test_1.py is ==> Test Case

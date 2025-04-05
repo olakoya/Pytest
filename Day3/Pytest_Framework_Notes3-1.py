@@ -14,16 +14,16 @@ Generating HTML Reports
 -----------------------
 1. pip install pytest-html
     - After installing the above
-2. We generate reports needed and code to use is below;
+2. To generate reports needed, code to use is below;
 ==> pytest -s -v --html=Day3\report.html Day3/test_Parameterization3-2.py
-3. After execution report can be displayed by
+3. After execution, report can be displayed in a plain browser by
     - Right clicking on the automatic created html file report in the folder
-    - Open in
+    - Click on Open in
     - Browser (select one)
-    - Safari
+    - Safari or Chrome or Firefox or Edge ( I selected Safari for this report)
     - Reports generated onto selected browser, Safari
 
-After generating the report and one wants to edit and delete some unnecessary info on the report software to use is below;
+After generating the report, user decided to edit and delete some unnecessary info on the report, software to use is below;
 
 Hooks
 -------

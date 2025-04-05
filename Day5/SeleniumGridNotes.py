@@ -1,10 +1,10 @@
 '''
 Selenium Grid
 -------------
-we can run our test cases on multiple machines
-Allow testing on different browser instances
-Enable cross platform testing
-parallel testing
+- We can run our test cases on multiple machines
+- Allow testing on different browser instances
+- Enable cross platform testing
+- Parallel testing
 
 Selenium Grid allows the execution of WebDriver scripts on remote machines by routing commands sent by the client to remote browser instances.
 
