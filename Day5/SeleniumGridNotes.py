@@ -53,17 +53,19 @@ Example
     URL to see sessions:  http://localhost:4444/
 
 
+
 Concurrency is parallelism.. (meaning user can run 8 TC parallely beside each other)
 -------------------------------------------------------------------------------------
--The terminal where the html host address is running on local host has to be left running
-during the time of testing execution
+-The terminal where the html host address (website) is running on local host has to be left running
+during the time of testing execution.
+- Tp confirm number of processors. on your system go to System administration and check CPU to verify that it has 8 processors
+as seen and correspond with the number on the localhost too.
 
 
 hub_url
 ----------
-URL of IP ADDRESS OF HUB MACHINE + HUB PORT +/wd/hub
+Is the URL of IP ADDRESS OF HUB MACHINE + HUB PORT +/wd/hub
 
-
-http://172.20.64.1:4444/wd/hub
+My MacBook hub url is http://192.168.1.166:4444/wd/hub is given when execution
 
 '''
