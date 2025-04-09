@@ -6,7 +6,7 @@ hub_url = "http://192.168.1.166:4444/wd/hub"
 opt = webdriver.ChromeOptions()
 opt.add_experimental_option("detach", True)
 
-opt.platform_name = "MacBook Pro"
+opt.platform_name = "Mac"
 opt.browser_version = "chrome"
 
 driver = webdriver.Remote(command_executor=hub_url, options=opt)
