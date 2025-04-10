@@ -68,4 +68,6 @@ Is the URL of IP ADDRESS OF HUB MACHINE + HUB PORT +/wd/hub
 
 My MacBook hub url is http://192.168.1.166:4444/wd/hub is given when execution
 
+
+Run: pytest -s -v -n=3 Day5\test_Parallel.py
 '''
