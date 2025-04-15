@@ -1,14 +1,15 @@
 '''
 Docker
 -------
-platform ==> package our application with all its dependencies
-package is a lightweight and portable container
+- This is a platform that helps to ==> package our application with all its dependencies
+- This is a package that is lightweight and portable container
 
 Virtualization
 ---------------
-Virtualization creates virtual machines (VMs) that simulate entire hardware environments.
-It is very costly.
-Analogy  ⇒  Imagine a hotel. Each VM is like a separate hotel room with its own amenities (like TV, bed, and bathroom). Every room is independent, but duplicating everything increases cost and size.
+- Virtualization creates virtual machines (VMs) that simulate entire hardware environments.
+- It is very costly.
+- Analogy  ⇒  Imagine a hotel. Each VM is like a separate hotel room with its own amenities (like TV, bed, and bathroom).
+- Every room is independent, but duplicating everything increases cost and size.
 
 Containerization
 ----------------
