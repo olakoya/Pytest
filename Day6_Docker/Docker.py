@@ -15,22 +15,24 @@ Containerization
 ----------------
 Containerization runs applications in containers that share the host OS but remain isolated.
 Low cost.
-Analogy  ⇒ Think of a shipping container. Each container holds its own cargo (app and dependencies) but shares the ship (host OS) for transport.
+Analogy  ⇒ Think of a shipping container. Each container holds its own cargo (app and dependencies) but shares the ship
+(host OS) for transport.
 
 
 Key Differences
 ----------------
-Virtualisation ==> Multiple OS environemnts on one machine
-Containerisation  ==> Multiple apps share one OS but run independently
+Virtualisation has ==> Multiple OS environments on one machine
+Containerisation has ==> Multiple apps share one OS but run independently
 
+We need Docker to work with Containerisation
 
-Note
------
-Image ==> Containers
+Note: Every Container needs:
+-----------------------------
+1. An Image ==> Containers
 
-Images are present on Docker hub
+2. Images are present on Docker Hub
 
-All images are mostly linux images
+3. All images are mostly linux images
 
 
 
