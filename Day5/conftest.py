@@ -40,7 +40,7 @@ def setup(request):
 
     # Connect to Selenium Grid
     driver = webdriver.Remote(command_executor=hub_url, options=option)
-    driver.get("https://www.google.com")  # Optional: Initial page load
+    driver.get("https://www.safari.com")  # Optional: Initial page load
 
     # option = options[browser]
     # option.set_capability("platformName", os_name)
