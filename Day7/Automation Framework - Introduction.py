@@ -1,39 +1,38 @@
 '''
 Automation Framework - Introduction
 -----------------------------------
-Automation Framework
-----------------------
-It provides a systematic approach to writing, executing, and maintaining test scripts,
-promoting reusability, scalability, and efficiency.
-We organize automation project files and folders in structured manner.
+What is an Automation Framework
+-------------------------------
+- It is a or provides a systematic approach to writing, executing, and maintaining test scripts, promoting reusability,
+scalability, and efficiency.
+- We organize automation project files and folders in structured manner.
 
 Objectives
 ----------
-Reusability
-Scalability
-Maintainability
-Efficiency
-Reporting
+i. Reusability: This is better than rewriting
+ii. Scalability: Increase in executing script
+iii. Maintainability: Change can be done by calling different functionality in multiple places
+iv. Efficiency: Minimum manual efforts
+v. Reporting: Helps to repot
 
 Types of Automation Frameworks
 ------------------------------
-Built-in Frameworks
--------------------
-Ready-to-use frameworks
-TestNG,Junit,Pytest,Unittest,cucumber,Behave,etc
+1. Built-in Frameworks
+------------------------
+- These are Ready-to-use frameworks
+- Different types of built-in `Frameworks are ==> TestNG, Junit, Pytest, Unittest, Cucumber, Behave,etc
 
 
-User-Defined/Customized Frameworks
-----------------------------------
-Customized frameworks meet specific project or organization requirements by
-integrating tools and libraries.
+2. User-Defined/Customized Frameworks
+--------------------------------------
+- This is Customized frameworks meet specific project or organization requirements by integrating tools and libraries.
+- Different types of User-Defined:
+i. Hybrid-Driven framework combine pom
+ii. Keyword-driven framework
+iii. Data Driven Approaches
 
-Hybrid-Driven framework combine pom
-Keyword-driven framework
-Data Driven Approaches
-
-Phases in Developing Automation Framework
-------------------------------------------
+Different Types of Phases in Developing Automation Framework
+--------------------------------------------------------------
 1. Requirement Analysis: Identify testing needs, tools, and project requirements.
 2. Tool Selection: Choose appropriate tools and libraries based on application type and
    project needs.
@@ -45,7 +44,7 @@ Phases in Developing Automation Framework
 7. Maintenance: Continuously improve the framework to accommodate application
    changes.
 
-
+https://tutorialsninja.com/demo/
 
 configurations - directory
 logs - dierctory
