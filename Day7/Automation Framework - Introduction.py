@@ -46,15 +46,15 @@ Different Types of Phases in Developing Automation Framework
 
 https://tutorialsninja.com/demo/
 
-configurations - directory
-logs - dierctory
-pageObjects - package
-reports - directory
-screenshorts - directory
-testCases - package
-testData - directory
-utilities - package
-requirements.txt
+1. Configurations - Directory
+2. Logs - Directory
+3. PageObjects - package
+4. Reports - directory
+5. Screen-short - Directory
+6. TestCases - package
+7. TestData - directory
+8. Utilities - package
+9. Requirements.txt
 
 https://tutorialsninja.com/demo/
 
