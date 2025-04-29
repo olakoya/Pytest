@@ -13,7 +13,7 @@ i. Reusability: This is better than rewriting
 ii. Scalability: Increase in executing script
 iii. Maintainability: Change can be done by calling different functionality in multiple places
 iv. Efficiency: Minimum manual efforts
-v. Reporting: Helps to repot
+v. Reporting: Helps to report
 
 Types of Automation Frameworks
 ------------------------------
